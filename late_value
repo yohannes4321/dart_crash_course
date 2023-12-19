@@ -1,0 +1,12 @@
+//dart on late value
+-----------------------------------------------------
+void main(List<String> arg) {
+  late final v = value_num();
+  print("Good morning holysprit ");
+  print(v);
+}
+
+int value_num() {
+  print("hello john bright sunday");
+  return 3;
+}
