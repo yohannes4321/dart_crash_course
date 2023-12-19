@@ -1,0 +1,12 @@
+///uniary prifix
+///uniry postfix
+///binary prifix
+///unary in prefix
+// uniry prefix operator
+void main(List<String> arg) {
+  int age = 88;
+  int y = --age; // the value itself is changed so consider the value itself
+  print(!true);
+  print(age);
+  print(y);
+}

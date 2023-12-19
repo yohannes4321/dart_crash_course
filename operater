@@ -1,0 +1,9 @@
+//operator in dart
+void main(List<String> arg) {
+  final age = 4;
+  final age1 = 7;
+   final divsion =
+      (age ~/ age1); // always divsion is double value for intger we use ~/  intger value
+
+  print(divsion);
+}

@@ -1,0 +1,7 @@
+// camel case nameing convention 
+void main(List<String> arg) {
+  final firstName = "Yohannes";
+  final lastName = "Alemu";
+  print(firstName);
+  print(lastName);
+}

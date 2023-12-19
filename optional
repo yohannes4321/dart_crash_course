@@ -1,0 +1,30 @@
+void main(List<String> arg) {
+  final String? name = null;// ?show thath it is optional value do have a value or null value 
+  print(name);
+}
+----------------------------------------------------------------
+ ///optional in dart
+void main(List<String> arg) {
+  String name = "yohannes";
+  print(name.length);
+  String? lastName;
+  print(lastName?.length);// consider the ?aster lastName always optional value is add
+}
+------------------------------------------------------------------
+///optional in dart
+void main(List<String> arg) {
+  // repalce null value with value
+  String? name;
+  name ??= "yohannes";//replace the null value with ??= and new value 
+  print(name);
+}
+----------------------------------------------------
+// list in optional value
+void main(List<String> arg) {
+  List<String>? name;
+  print(name?.length);
+}
+
+
+
+
